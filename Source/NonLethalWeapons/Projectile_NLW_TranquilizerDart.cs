@@ -1,0 +1,39 @@
+using System;
+using RimWorld;
+using Verse;
+
+namespace NonLethalWeapons;
+
+public class Projectile_NLW_TranquilizerDart : Bullet
+{
+    public ThingDef_NLW_HediffBullet Def => def as ThingDef_NLW_HediffBullet;
+
+    protected override void Impact(Thing hitThing, bool blockedByShield = false)
+    {
+        base.Impact(hitThing, blockedByShield);
+        if (Def == null || hitThing is not Pawn pawn || !pawn.RaceProps.IsFlesh)
+        {
+            return;
+        }
+
+        foreach (var item in Def.HediffsToAdd)
+        {
+            if (!(Rand.Value <= Def.AddHediffChance))
+            {
+                continue;
+            }
+
+            var hediff = pawn.health?.hediffSet?.GetFirstHediffOfDef(item);
+            var num = Rand.Range(0.25f, 0.4285f) / (float)Math.Pow(pawn.RaceProps.baseBodySize, 1.5);
+            if (hediff != null)
+            {
+                hediff.Severity += num;
+                continue;
+            }
+
+            var hediff2 = HediffMaker.MakeHediff(item, pawn);
+            hediff2.Severity = num;
+            pawn.health?.AddHediff(hediff2);
+        }
+    }
+}
