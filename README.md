@@ -5,6 +5,8 @@
 Update of TheGoofyOnes mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2061656760
 
+- Youtube review by pravculear
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
@@ -35,4 +37,7 @@ Original idea and assembly by Abaddon16
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
+
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2938882156]![Image](https://img.shields.io/github/v/release/emipa606/TranquilizerTurret?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 

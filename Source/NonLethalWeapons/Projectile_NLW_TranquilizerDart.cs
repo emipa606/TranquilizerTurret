@@ -23,7 +23,17 @@ public class Projectile_NLW_TranquilizerDart : Bullet
                 continue;
             }
 
-            var hediff = pawn.health?.hediffSet?.GetFirstHediffOfDef(item);
+            var actualHediff = item;
+            if (!NonLethalWeaponsMod.instance.Settings.TranquilizerPuking)
+            {
+                actualHediff = DefDatabase<HediffDef>.GetNamedSilentFail($"{item.defName}_Nobarf");
+                if (actualHediff == null)
+                {
+                    actualHediff = item;
+                }
+            }
+
+            var hediff = pawn.health?.hediffSet?.GetFirstHediffOfDef(actualHediff);
             var num = Rand.Range(0.25f, 0.4285f) / (float)Math.Pow(pawn.RaceProps.baseBodySize, 1.5);
             if (hediff != null)
             {
@@ -31,7 +41,7 @@ public class Projectile_NLW_TranquilizerDart : Bullet
                 continue;
             }
 
-            var hediff2 = HediffMaker.MakeHediff(item, pawn);
+            var hediff2 = HediffMaker.MakeHediff(actualHediff, pawn);
             hediff2.Severity = num;
             pawn.health?.AddHediff(hediff2);
         }
