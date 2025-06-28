@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 2809879261
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 77df6cffc8fbe603189fc4847764e1f9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 77df6cffc8fbe603189fc4847764e1f9
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.TranquilizerTurret/Textures/Things/Building/Security/TranqTurretBase/TranqTurretBaseC.png
+- Assets/Data/Mlie.TranquilizerTurret/Textures/Things/Building/Security/TranqTurretBase/TranqTurretBaseG.png
+- Assets/Data/Mlie.TranquilizerTurret/Textures/Things/Building/Security/TranqTurretGun_Ico.png
+- Assets/Data/Mlie.TranquilizerTurret/Textures/Things/Building/Security/TranqTurretBase/TranqTurretBaseF.png
+- Assets/Data/Mlie.TranquilizerTurret/Textures/Things/Building/Security/TranqTurretBase/TranqTurretBaseE.png
+- Assets/Data/Mlie.TranquilizerTurret/Textures/Things/Building/Security/TranqTurretBase/TranqTurretBaseA.png
+- Assets/Data/Mlie.TranquilizerTurret/Sounds/Tranq.wav
+- Assets/Data/Mlie.TranquilizerTurret/Textures/Things/Building/Security/TranqTurretBase/TranqTurretBase.png
+- Assets/Data/Mlie.TranquilizerTurret/Textures/Things/Building/Security/TranqTurretBase/TranqTurretBaseB.png
+- Assets/Data/Mlie.TranquilizerTurret/Textures/Things/Proj_Tranq_Dart.png
+- Assets/Data/Mlie.TranquilizerTurret/Textures/Things/Building/Security/TranqTurretBase/TranqTurretBaseD.png
+- Assets/Data/Mlie.TranquilizerTurret/Textures/Things/Building/Security/TranqTurretGun.png
+Dependencies: []

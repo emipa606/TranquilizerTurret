@@ -10,7 +10,7 @@ internal class NonLethalWeaponsMod : Mod
     /// <summary>
     ///     The instance of the settings to be read by the mod
     /// </summary>
-    public static NonLethalWeaponsMod instance;
+    public static NonLethalWeaponsMod Instance;
 
     private static string currentVersion;
 
@@ -20,7 +20,7 @@ internal class NonLethalWeaponsMod : Mod
     /// <param name="content"></param>
     public NonLethalWeaponsMod(ModContentPack content) : base(content)
     {
-        instance = this;
+        Instance = this;
         Settings = GetSettings<NonLethalWeaponsSettings>();
         currentVersion = VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
     }
@@ -46,18 +46,18 @@ internal class NonLethalWeaponsMod : Mod
     /// <param name="rect"></param>
     public override void DoSettingsWindowContents(Rect rect)
     {
-        var listing_Standard = new Listing_Standard();
-        listing_Standard.Begin(rect);
-        listing_Standard.Gap();
-        listing_Standard.CheckboxLabeled("NLW.TranquilizerPuking".Translate(), ref Settings.TranquilizerPuking);
+        var listingStandard = new Listing_Standard();
+        listingStandard.Begin(rect);
+        listingStandard.Gap();
+        listingStandard.CheckboxLabeled("NLW.TranquilizerPuking".Translate(), ref Settings.TranquilizerPuking);
         if (currentVersion != null)
         {
-            listing_Standard.Gap();
+            listingStandard.Gap();
             GUI.contentColor = Color.gray;
-            listing_Standard.Label("NLW.ModVersion".Translate(currentVersion));
+            listingStandard.Label("NLW.ModVersion".Translate(currentVersion));
             GUI.contentColor = Color.white;
         }
 
-        listing_Standard.End();
+        listingStandard.End();
     }
 }

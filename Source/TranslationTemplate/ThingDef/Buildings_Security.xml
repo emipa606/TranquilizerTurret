@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: tranquilizer dart -->
+  <Bullet_TranqTurret.label>tranquilizer dart</Bullet_TranqTurret.label>
+  <!-- EN: Tranquilizer Turret -->
+  <Gun_TranqTurret.label>Tranquilizer Turret</Gun_TranqTurret.label>
+  <!-- EN: A turret fitted with a tranquilizer gun that automatically fires at nearby and distant enemies. -->
+  <Gun_TranqTurret.description>A turret fitted with a tranquilizer gun that automatically fires at nearby and distant enemies.</Gun_TranqTurret.description>
+  <!-- EN: Tranquilizer Turret -->
+  <Gun_TranqTurret.verbs.Verb_Shoot.label>Tranquilizer Turret</Gun_TranqTurret.verbs.Verb_Shoot.label>
+  <!-- EN: Tranquilizer Turret -->
+  <TranqTurretGun.label>Tranquilizer Turret</TranqTurretGun.label>
+  <!-- EN: A highly accurate tranquilizer turret that automatically fires at enemies. -->
+  <TranqTurretGun.description>A highly accurate tranquilizer turret that automatically fires at enemies.</TranqTurretGun.description>
+</LanguageData>

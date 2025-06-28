@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: tranquilize -->
+  <Ab16_Tranquilize.label>tranquilize</Ab16_Tranquilize.label>
+  <!-- EN: A hediff used by the Tranquilizer -->
+  <Ab16_Tranquilize.description>A hediff used by the Tranquilizer</Ab16_Tranquilize.description>
+  <!-- EN: an intense tranquilization -->
+  <Ab16_Tranquilize.labelNoun>an intense tranquilization</Ab16_Tranquilize.labelNoun>
+  <!-- EN: minor -->
+  <Ab16_Tranquilize.stages.minor.label>minor</Ab16_Tranquilize.stages.minor.label>
+  <!-- EN: moderate -->
+  <Ab16_Tranquilize.stages.moderate.label>moderate</Ab16_Tranquilize.stages.moderate.label>
+  <!-- EN: severe -->
+  <Ab16_Tranquilize.stages.severe.label>severe</Ab16_Tranquilize.stages.severe.label>
+  <!-- EN: extreme -->
+  <Ab16_Tranquilize.stages.extreme.label>extreme</Ab16_Tranquilize.stages.extreme.label>
+  <!-- EN: fatal -->
+  <Ab16_Tranquilize.stages.fatal.label>fatal</Ab16_Tranquilize.stages.fatal.label>
+  <!-- EN: tranquilize -->
+  <Ab16_Tranquilize_Nobarf.label>tranquilize</Ab16_Tranquilize_Nobarf.label>
+  <!-- EN: A hediff used by the Tranquilizer -->
+  <Ab16_Tranquilize_Nobarf.description>A hediff used by the Tranquilizer</Ab16_Tranquilize_Nobarf.description>
+  <!-- EN: an intense tranquilization -->
+  <Ab16_Tranquilize_Nobarf.labelNoun>an intense tranquilization</Ab16_Tranquilize_Nobarf.labelNoun>
+  <!-- EN: minor -->
+  <Ab16_Tranquilize_Nobarf.stages.minor.label>minor</Ab16_Tranquilize_Nobarf.stages.minor.label>
+  <!-- EN: moderate -->
+  <Ab16_Tranquilize_Nobarf.stages.moderate.label>moderate</Ab16_Tranquilize_Nobarf.stages.moderate.label>
+  <!-- EN: severe -->
+  <Ab16_Tranquilize_Nobarf.stages.severe.label>severe</Ab16_Tranquilize_Nobarf.stages.severe.label>
+  <!-- EN: extreme -->
+  <Ab16_Tranquilize_Nobarf.stages.extreme.label>extreme</Ab16_Tranquilize_Nobarf.stages.extreme.label>
+  <!-- EN: fatal -->
+  <Ab16_Tranquilize_Nobarf.stages.fatal.label>fatal</Ab16_Tranquilize_Nobarf.stages.fatal.label>
+</LanguageData>

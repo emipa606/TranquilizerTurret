@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Tranquilizer Turret -->
+  <TranqTurret.label>Tranquilizer Turret</TranqTurret.label>
+  <!-- EN: Take em down without killing them. -->
+  <TranqTurret.description>Take em down without killing them.</TranqTurret.description>
+</LanguageData>

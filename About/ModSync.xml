@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>ad790d78-cbe2-47ad-857a-6c55b713fff1</ID>
   <ModName>Tranquilizer Turret (Continued)</ModName>
-  <Version>1.5.0</Version>
+  <Version>1.6.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,3 +12,4 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
+

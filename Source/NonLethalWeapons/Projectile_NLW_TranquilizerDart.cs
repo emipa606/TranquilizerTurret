@@ -6,7 +6,7 @@ namespace NonLethalWeapons;
 
 public class Projectile_NLW_TranquilizerDart : Bullet
 {
-    public ThingDef_NLW_HediffBullet Def => def as ThingDef_NLW_HediffBullet;
+    private ThingDef_NLW_HediffBullet Def => def as ThingDef_NLW_HediffBullet;
 
     protected override void Impact(Thing hitThing, bool blockedByShield = false)
     {
@@ -24,13 +24,9 @@ public class Projectile_NLW_TranquilizerDart : Bullet
             }
 
             var actualHediff = item;
-            if (!NonLethalWeaponsMod.instance.Settings.TranquilizerPuking)
+            if (!NonLethalWeaponsMod.Instance.Settings.TranquilizerPuking)
             {
-                actualHediff = DefDatabase<HediffDef>.GetNamedSilentFail($"{item.defName}_Nobarf");
-                if (actualHediff == null)
-                {
-                    actualHediff = item;
-                }
+                actualHediff = DefDatabase<HediffDef>.GetNamedSilentFail($"{item.defName}_Nobarf") ?? item;
             }
 
             var hediff = pawn.health?.hediffSet?.GetFirstHediffOfDef(actualHediff);
