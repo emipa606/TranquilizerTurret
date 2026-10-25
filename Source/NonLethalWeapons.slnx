@@ -3,4 +3,25 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="NonLethalWeapons/NonLethalWeapons.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Text.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/HediffDefs/">
+    <File Path="../1.7/Defs/HediffDefs/Tranquilizer.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/SoundDefs/">
+    <File Path="../1.7/Defs/SoundDefs/World_Oneshots_Turrets.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/ResearchProjects_Tier2_Turrets.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Buildings/">
+    <File Path="../1.7/Defs/ThingDefs_Buildings/Buildings_Security.xml" />
+  </Folder>
 </Solution>
